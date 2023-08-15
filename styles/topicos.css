@@ -1,0 +1,75 @@
+.topicos {
+    background: var(--teste, linear-gradient(160deg, #002F52 0%, #326589 100%));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0 0.9em 0 0.9em;
+}
+
+.topicos__titulo {
+    font-size: var(--tamanho-fonte-subtitulo);
+    font-weight: var(--peso-fonte-texto-leve);
+    padding: 1.5em 0 0 0;
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+}
+
+.topicos__lista {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 1.5em;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.topicos__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor-terciaria);
+    list-style-type: none;
+}
+
+.topicos__item:hover {
+    background-color: var(--cor-terciaria-hover);
+    padding: 0.5%;
+}
+
+.topicos__link {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: var(--tamanho-fonte-texto);
+    font-weight: var(--peso-fonte-titulo);
+    padding: 1em 1.5em;
+}
+
+@media only screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 1.5em;
+    }
+
+    .topicos__lista {
+        gap: 25px;
+        width: 80%;
+        padding-bottom: 2em;
+    }
+
+    .topicos__link {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 1728px) {
+    .topicos__titulo {
+        font-size: var(--tamanho-fonte-titulo-desktop);
+    }
+
+    .topicos__lista {
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}

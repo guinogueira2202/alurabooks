@@ -1,0 +1,79 @@
+.banner {
+    background: var(--teste, linear-gradient(160deg, #002F52 0%, #326589 100%));
+    color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.1em 2em;
+}
+
+.banner__titulo {
+    font-size: var(--tamanho-fonte-titulo);
+    font-weight: var(--peso-fonte-titulo);
+}
+
+.banner__texto {
+    font-size: var(--tamanho-fonte-subtitulo);
+    font-weight: var(--peso-fonte-texto-forte);
+    margin: 0.5em 0 1.5em 0;
+}
+
+.banner__pesquisa {
+    text-align: center;
+    color: var(--cor-primaria);
+    background-color: transparent;
+    border: solid 1px var(--cor-primaria);
+    padding: 0.7em 1.5em;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-size: var(--tamanho-fonte-texto);
+    font-weight: var(--peso-fonte-texto);
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    color: var(--cor-primaria);
+    background: url(/assets/Lupa.svg) no-repeat;
+    background-position: 0.5em;
+
+}
+
+.banner__pesquisa:focus {
+    border: solid 2px;
+    background: var(--cor-secundaria);
+}
+
+.banner__pesquisa:hover {
+    border: solid 2px var(--cor-terciaria);
+}
+
+@media only screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__pesquisa {
+        padding: 0.8em 1.8em;
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: calc(23% - 10px) center;
+    }
+}
+
+@media only screen and (min-width: 1728px) {
+    .banner {
+        padding: 4em 4em;
+    }
+    
+    .banner__pesquisa {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: calc(28% - 10px) center;
+    }
+}

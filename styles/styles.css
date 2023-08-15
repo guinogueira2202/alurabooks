@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+@import url("./header.css");
+@import './banner.css';
+@import './carrossel.css';
+@import './topicos.css';
+@import './contato.css';
+@import './footer.css';
+
+:root {
+    --cor-fundo: #EBECEE;
+    --cor-primaria: #FFF;
+    --cor-secundaria: #002F52;
+    --cor-terciaria: #EB9B00;
+    --cor-terciaria-hover: #e4a527;
+    --cor-texto: rgba(0, 0, 0, 0.85);
+    --cor-preto: #000;
+    --cor-cinza: #474646;
+    --cor-cinza-claro: #858585;
+
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+
+    --tamanho-fonte-titulo-desktop: 2rem;
+    --tamanho-fonte-titulo: 1.12rem;
+    --tamanho-fonte-subtitulo: 1rem;
+    --tamanho-fonte-texto: 0.87rem;
+
+    --peso-fonte-titulo: 700;
+    --peso-fonte-texto-forte: 500;
+    --peso-fonte-texto: 400;
+    --peso-fonte-texto-leve: 300;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-primaria);
+    font-size: var(--tamanho-fonte-subtitulo);
+    font-weight: var(--peso-fonte-texto);
+}

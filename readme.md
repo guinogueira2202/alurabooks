@@ -1,5 +1,5 @@
 # Página de E-commerce de Livros: Projeto de Desenvolvimento Front-End
-Bem-vindo(a) ao meu projeto de página web da AluraBooks! Um projeto de desenvolvimento front-end de uma página de e-commerce.
+Bem-vindo(a) ao meu projeto de página web da AluraBooks! Um projeto de desenvolvimento front-end de uma página de e-commerce de livros e e-books.
 
 Sou Guilherme Nogueira, estudante de desenvolvimento web na plataforma de ensino online [Alura](https://www.alura.com.br/). Esta é uma das páginas web que desenvolvi praticando front-end, com as linguagens HTML e CSS, ao longo do curso de **HTML e CSS: responsividade com mobile-first** - [certificado de conclusão](https://cursos.alura.com.br/certificate/bfaf4c5a-7d8f-4fba-9256-7f1eb79b0620?lang=pt_BR).
 
@@ -37,7 +37,7 @@ A página é completamente responsiva em desktops, tablets e smartphones de dife
 
 Você pode visualizar a página web aqui: 
 
-[![Visualizar projeto na Vercel](https://img.shields.io/badge/Vercel%20Page-Visualizar%20a%20página-blue?style=flat-square&logo=vercel&logoColor=white&link=https://alura-plus-rose-two.vercel.app/)](https://alura-plus-rose-two.vercel.app/)
+[![Visualizar projeto na Vercel](https://img.shields.io/badge/Vercel%20Page-Visualizar%20a%20página-blue?style=flat-square&logo=vercel&logoColor=white&link=https://alurabooks-eight-eta.vercel.app/)](https://alurabooks-eight-eta.vercel.app/)
 
 ## Sobre Mim
 

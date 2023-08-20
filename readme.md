@@ -27,7 +27,7 @@ A página é completamente responsiva em desktops, tablets e smartphones de dife
 
 ## Detalhes Técnicos
 
-- Usei a abordagem de design e desenvolvimento "Mobile First" que prioriza a criação da versão para dispositivos móveis (smartphones e tablets) antes de criar as versões de telas maiores (desktops e outros). Reconhecendo que cada vez mais pessoas acessam a web através de dispositivos móveis, e não apenas de desktops.
+- Usei a abordagem de design e desenvolvimento "Mobile First" que prioriza a criação da versão para dispositivos móveis (smartphones e tablets) antes de criar as versões de telas maiores (desktops e outros).
 - Utilizei Flexbox para criar layouts flexíveis e responsivos.
 - Implementei Media Queries para adaptar a página a diferentes tamanhos de tela.
 - Adotei nomenclatura de classes seguindo a metodologia BEM.

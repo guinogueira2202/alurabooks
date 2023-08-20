@@ -3,9 +3,26 @@ Bem-vindo(a) ao meu projeto de página web da AluraBooks! Um projeto de desenvol
 
 Sou Guilherme Nogueira, estudante de desenvolvimento web na plataforma de ensino online [Alura](https://www.alura.com.br/). Esta é uma das páginas web que desenvolvi praticando front-end, com as linguagens HTML e CSS, ao longo do curso de **HTML e CSS: responsividade com mobile-first** - [certificado de conclusão](https://cursos.alura.com.br/certificate/bfaf4c5a-7d8f-4fba-9256-7f1eb79b0620?lang=pt_BR).
 
+## Como Visualizar a Página
+
+Você pode visualizar essa página web aqui: 
+
+[![Visualizar projeto na Vercel](https://img.shields.io/badge/Vercel%20Cloud-Visualizar%20a%20página-blue?style=flat-square&logo=vercel&logoColor=white&link=https://alurabooks-eight-eta.vercel.app/)](https://alurabooks-eight-eta.vercel.app/)
+
 ## Sobre o Projeto
 
 Se trata de uma página "home" de um e-commerce de livros e e-books, contendo um **cabeçalho**, **banner com barra de pesquisa**, **conteúdo principal** [livros], **seção de tópicos visitados**, **seção de contato** e **rodapé**. Pagína web completamente responsiva em diferentes tamanhos de tela.
+
+---
+
+* No cabeçalho da página temos a logo e o menu de navegação, com os links de redirecionamento. 
+* Na seção "banner" temos um título, texto e barra de pesquisa. 
+* Na seção principal ficam as subseções de "últimos lançamentos" e "mais vendidos", ambas com um carrossel de produtos [livros] e um card de "outros produtos interessantes" e "autora do mês". 
+* Uma seção de "tópicos visitados" com links de redirecionamento para o usuário. 
+* Uma seção de contato com formulário de e-mail. 
+* Por fim, o rodapé com links para outros produtos e parceiros do Grupo Alura.
+
+---
 
 <img src="./assets/readme/screencapture-127-0-0-1-3000-index-html-2023-08-20-16_12_07.png" alt="Screenshot mostrando a seção hero da página">
 
@@ -32,12 +49,6 @@ A página se adapta em telas de tablets e smartphones de diferentes tamanhos, co
 - Implementei Media Queries para adaptar a página a diferentes tamanhos de tela.
 - Adotei nomenclatura de classes seguindo a metodologia BEM.
 - Utilizei variáveis CSS para facilitar a manutenção, centralizando cores, fontes, tamanhos de fontes e pesos de fontes em um único lugar.
-
-## Como Visualizar
-
-Você pode visualizar a página web aqui: 
-
-[![Visualizar projeto na Vercel](https://img.shields.io/badge/Vercel%20Page-Visualizar%20a%20página-blue?style=flat-square&logo=vercel&logoColor=white&link=https://alurabooks-eight-eta.vercel.app/)](https://alurabooks-eight-eta.vercel.app/)
 
 ## Sobre Mim
 

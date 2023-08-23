@@ -14,7 +14,7 @@ Você pode visualizar essa página web aqui:
 ---
 ## Sobre o Projeto
 
-Se trata de uma página "home" de um e-commerce de livros e e-books, contendo um **cabeçalho**, **banner com barra de pesquisa**, **conteúdo principal** [livros], **seção de tópicos visitados**, **seção de contato** e **rodapé**. Pagína web completamente responsiva em diferentes tamanhos de tela.
+Se trata de uma página "home" de um e-commerce de livros e e-books, contendo um **cabeçalho**, **banner com barra de pesquisa**, **conteúdo principal** [livros], **seção de tópicos visitados**, **seção de contato** e **rodapé**. Página completamente responsiva em diferentes tamanhos de tela.
 
 * No cabeçalho da página temos a logo e o menu de navegação, com os links de redirecionamento. 
 * Na seção "banner" temos um título, texto e barra de pesquisa. 
